@@ -22,7 +22,7 @@ const Donate = () => {
           <div className="absolute bottom-[10px] left-[150px] w-[300px] h-[300px] bg-[#F24C3D] rounded-full"></div>
 
           {/* Content box */}
-          <div className="w-4/5 mx-auto p-4 rounded shadow-2xl bg-gray-50 flex flex-col relative z-10">
+          <div className="sm:w-4/5 w[96%] mx-auto p-4 rounded shadow-2xl bg-gray-50 flex flex-col relative z-10">
             <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full">
               {/* Form Section */}
               <div className="w-full md:w-1/2 px-4 h-auto mb-4 md:mb-0">
