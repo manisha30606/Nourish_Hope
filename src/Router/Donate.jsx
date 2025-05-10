@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Img from "../assets/p3.png"; 
-import "../App.css";
-import Footer from "../Component/Footer";
+import Img from "../photos/p6.png"; 
+
+
+import Footer from "../components/Footer";
 const Donate = () => {
   const [submitted, setSubmitted] = useState(false);
 

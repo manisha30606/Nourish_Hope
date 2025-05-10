@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "../App.css";
 
-import Footer from "../Component/Footer";
+
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);

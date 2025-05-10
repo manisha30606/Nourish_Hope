@@ -1,12 +1,12 @@
 import React from 'react';
-import Img from "../assets/p3.png";
-import pic from "../assets/p5.jpg"
-import ser1 from "../assets/m1.jpg"
-import ser2 from "../assets/m2.jpg"
-import ser3 from "../assets/m3.jpg"
+import Img from "../photos/p3.png";
+import pic from "../photos/p5.jpg"
+import ser1 from "../photos/m1.jpg"
+import ser2 from "../photos/m2.jpg"
+import ser3 from "../photos/m3.jpg"
 import { Link } from "react-router-dom";
-import Navbar from '../Component/Navbar';
-import Footer from "../Component/Footer";
+import Navbar from '../components/Navbar';
+import Footer from "../components/Footer";
 
 const Home = () => {
     return (
@@ -57,7 +57,7 @@ const Home = () => {
 
 
             <div className='max-w-[99%] lg:max-w-[90%] md:mx-auto px-4 flex flex-col-reverse md:flex-row my-8 items-center justify-center'>
-                
+
                 <div className='md:w-1/2 w-full'>
                     <img
                         src={pic}
@@ -65,7 +65,7 @@ const Home = () => {
                         className="w-full h-full pr-6"
                     />
                 </div>
-            
+
                 <div className='md:mt-10 md:w-1/2'>
                     <h1 className='text-xl sm:text-2xl md:text-3xl pb-4 text-[#22A699]'>About</h1>
                     <h1 className='text-xl sm:text-2xl md:text-3xl pb-3 font-medium font-tektur text-[#F2BE22]'>
@@ -95,45 +95,45 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
-            
+
             </div>
-            
+
 
             <div className='max-w-[99%] lg:max-w-[90%] md:mx-auto mx-6 my-8'>
-        <div className='text-center'>
-            <h1 className='text-[#F24C3D] text-2xl sm:text-4xl px-3 py-2'>Extending a Hand <span className='text-[#F24C3D] '> Our Guiding Mission </span></h1>
-            <p className='text-xl font-normal '>Uniting Communities Through Extended Helping Hands.</p>
-        </div>
+                <div className='text-center'>
+                    <h1 className='text-[#F24C3D] text-2xl sm:text-4xl px-3 py-2'>Extending a Hand <span className='text-[#F24C3D] '> Our Guiding Mission </span></h1>
+                    <p className='text-xl font-normal '>Uniting Communities Through Extended Helping Hands.</p>
+                </div>
 
-        <div className='flex flex-col md:flex-row items-center justify-center my-8'>
-  <div className='w-[99%] md:w-96 mx-6 my-8'>
-    <img src={ser1} alt="" className='w-full md:w-[80%]' />
-    <h1 className='text-xl md:text-2xl text-[#F29727] font-semibold mt-4'>Meal Programs</h1>
-    <p className='text-base md:text-lg mt-2'>
-      Providing hot meals to homeless shelters, schools, or community centers to ensure everyone has access to nutritious food.
-    </p>
-  </div>
+                <div className='flex flex-col md:flex-row items-center justify-center my-8'>
+                    <div className='w-[99%] md:w-96 mx-6 my-8'>
+                        <img src={ser1} alt="" className='w-full md:w-[80%]' />
+                        <h1 className='text-xl md:text-2xl text-[#F29727] font-semibold mt-4'>Meal Programs</h1>
+                        <p className='text-base md:text-lg mt-2'>
+                            Providing hot meals to homeless shelters, schools, or community centers to ensure everyone has access to nutritious food.
+                        </p>
+                    </div>
 
-  <div className='w-[99%] md:w-96 mx-6 my-8'>
-    <img src={ser2} alt="" className='w-full md:w-[80%]' />
-    <h1 className='text-xl md:text-2xl text-[#F29727] font-semibold mt-4'>Food Drives</h1>
-    <p className='text-base md:text-lg mt-2'>
-      Organizing community-wide campaigns to collect non-perishable food items for distribution to those in need.
-    </p>
-  </div>
+                    <div className='w-[99%] md:w-96 mx-6 my-8'>
+                        <img src={ser2} alt="" className='w-full md:w-[80%]' />
+                        <h1 className='text-xl md:text-2xl text-[#F29727] font-semibold mt-4'>Food Drives</h1>
+                        <p className='text-base md:text-lg mt-2'>
+                            Organizing community-wide campaigns to collect non-perishable food items for distribution to those in need.
+                        </p>
+                    </div>
 
-  <div className='w-[99%] md:w-96 mx-6 my-8'>
-    <img src={ser3} alt="" className='w-full md:w-[80%]' />
-    <h1 className='text-xl md:text-2xl text-[#F29727] font-semibold mt-4'>Donation Matching</h1>
-    <p className='text-base md:text-lg mt-2'>
-      Encouraging businesses and individuals to match donations, amplifying the impact of every contribution.
-    </p>
-  </div>
-</div>
+                    <div className='w-[99%] md:w-96 mx-6 my-8'>
+                        <img src={ser3} alt="" className='w-full md:w-[80%]' />
+                        <h1 className='text-xl md:text-2xl text-[#F29727] font-semibold mt-4'>Donation Matching</h1>
+                        <p className='text-base md:text-lg mt-2'>
+                            Encouraging businesses and individuals to match donations, amplifying the impact of every contribution.
+                        </p>
+                    </div>
+                </div>
 
-    </div>
+            </div>
 
-    <Footer/>
+            <Footer />
         </>
     );
 };
